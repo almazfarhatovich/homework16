@@ -7,9 +7,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Circle circle = new Circle();
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Напиши радиус окружности:");
-        int number = scanner.nextInt();
+        int number = 5;
         Circle.area(number);
         Circle.circumference(number);
     }
